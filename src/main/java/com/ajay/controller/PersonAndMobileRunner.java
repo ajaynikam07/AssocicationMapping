@@ -144,7 +144,9 @@ public class PersonAndMobileRunner implements CommandLineRunner {
 			}
 			default: 
 			{
-				throw new IllegalAccessError("Invalid ");
+				System.out.println("Enter valid id");
+				throw new IllegalAccessError("Invalid Mesasagg ");
+
 			}
 			
 			}
